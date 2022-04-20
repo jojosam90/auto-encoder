@@ -6,4 +6,4 @@
 
 ![image](https://user-images.githubusercontent.com/77944932/164121448-fa35db32-b80b-4a23-857a-c33e5905530d.png)
 
-code as known as latent vector/variables.
+code as known as latent space/vector/variables.
