@@ -17,10 +17,14 @@ The middle layer will not have any other option but to learn the most important 
 
 If number of neurons in the middle layer > the number of neurons in the input layer, the neural network will have a higher capacity to learn the pattern, making the network lazy. It will copy and paste the input values to the output values, learn noises, and not extract any feature.
 
+### Image Denoising 
 
+- Encoding network will compress the input layer values (bottleneck).
+- Its results will work as input to the middle layer.
+- Decoder network's job is to reconstruct the information and provide the results.
 
-## Image Denoising 
-
+Why use Autoencoders?
+To remove noise from images, it is import to reduce dimensionality. Autoencoders introduce non-linearity in the network with the help of their non-linear activation functions and the stack of multiple layers. Outliers, a by-product of dimensionality reduction, can easily be detected.
 
 
 ## Anomaly Detection 
